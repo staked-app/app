@@ -1,0 +1,14 @@
+resolution: workspace
+name: authentication
+description: Authentication and session management for STAKED.
+publish_to: none
+
+environment:
+  sdk: '^3.13.1'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dio: ^5.0.0
+  flutter_secure_storage: ^9.0.0

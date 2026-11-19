@@ -1,0 +1,10 @@
+# Staked/pubspec.yaml
+name: staked_workspace
+publish_to: none
+environment:
+  sdk: ^3.6.0
+workspace:
+  - staked
+  - lib/authentication
+  - lib/dio_client
+  - lib/global_config
